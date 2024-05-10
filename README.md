@@ -19,10 +19,13 @@ This tutorial highlights the exploration and understanding of Domain Name System
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Check for Mainframe Record
+- Creating an A-Record for Mainframe
+- Mainframe Traffic
+- DNS Cache
+- Changing Mainframe IP Address
+- Mainframe Traffic with New IP Address
+- Creating CNAME Record
 
 <h2>Deployment and Configuration Steps</h2>
 
