@@ -3,19 +3,14 @@
 </p>
 
 <h1> Exploring and Understanding Domain Name System (DNS) </h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
-
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
+This tutorial highlights the exploration and understanding of Domain Name System (DNS).<br />
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Active Directory Domain Services
-- PowerShell
+- DNS Manager
+- Command Prompt
 
 <h2>Operating Systems Used </h2>
 
