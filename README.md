@@ -195,7 +195,8 @@ Observe that "DC-1" and "mainframe" have the same Private IP Address since we co
 <img src="https://i.imgur.com/wKyjZ1A.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Type "ipconfig (spacebar)/displaydns" and Press Enter. <br /> <br />
+Observe the DNS data for "mainframe" and "DC-1". <br /> <br />
 </p>
 <br />
 
@@ -204,7 +205,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/4d4rOVv.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Return to the DNS Manager. <br /> <br />
+Select "mainframe". <br /> <br />
+Right Click and Select "Properties". <br /> <br />
 </p>
 <br />
 
@@ -212,7 +215,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/aANh6FV.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Change IP Address to 8.8.8.8. <br /> <br />
+Select "Apply". <br /> <br />
 </p>
 <br />
 
