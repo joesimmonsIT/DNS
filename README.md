@@ -109,7 +109,7 @@ Select "Forward Lookup Zones".
 <img src="https://i.imgur.com/Ma0qvHU.png"/>
 </p>
 <p>
-Observe the Private IP Address for Client-1 and DC-1.
+Observe the Private IP Addresses for Client-1 and DC-1.
 </p>
 <br />
 
