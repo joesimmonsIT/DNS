@@ -185,7 +185,7 @@ Observe the traffic for mainframe. <br /> <br />
 </p>
 <p>
 Type "nslookup (spacebar) mainframe" and Press Enter. <br /> <br />
-Observe that "DC-1" and mainframe have the same Private IP Address since we configured it that way. <br /> <br />
+Observe that "DC-1" and "mainframe" have the same Private IP Address since we configured it that way. <br /> <br />
 </p>
 <br />
 
