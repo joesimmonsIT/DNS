@@ -33,7 +33,18 @@ This tutorial highlights the exploration and understanding of Domain Name System
 <img src="https://i.imgur.com/LxpH2vi.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Go to Azure Portal (Portal.Azure.com). <br /> <br />
+Select "Virtual Machines" icon. <br /> <br />
+Select "Client-1". <br /> <br />
+Copy Public IP Address. <br /> <br />
+Go to "Remote Desktop Connection". <br /> <br />
+Paste Public IP Address. <br /> <br />
+Select "Connect". <br /> <br />
+Select "More choices". <br /> <br />
+Select "Use a different account". <br /> <br />
+Enter Domain Admin Username. <br /> <br />
+Enter Domain Admin Password. <br /> <br />
+Select "Ok". <br /> <br />
 </p>
 <br />
 
