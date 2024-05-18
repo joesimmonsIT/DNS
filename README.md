@@ -346,7 +346,11 @@ Search "(CNAME)" has been successfully added to DNS.
 <img src="https://i.imgur.com/yB5DSYk.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Go to the "Windows Pane". <br /> <br />
+Type "cmd" in the search bar. <br /> <br />
+Open as Administrator. <br /> <br />
+Type "ipconfig (spacebar)/flushdns" and Press Enter. <br /> <br />
+DNS has successfully been flushed. <br /> <br />
 </p>
 <br />
 
@@ -354,7 +358,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/SuwUE3f.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Type "ping (spacebar) search" and Press Enter. <br /> <br />
+Observe the google traffic. <br /> <br /> 
+Congratulations you have completed this tutorial. <br /> <br />
 </p>
 <br />
 
