@@ -33,7 +33,7 @@ This tutorial highlights the exploration and understanding of Domain Name System
 <img src="https://i.imgur.com/LxpH2vi.png"/>
 </p>
 <p>
-Go to Azure Portal (Portal.Azure.com). <br /> <br />
+Go to Azure Portal "(Portal.Azure.com)". <br /> <br />
 Select "Virtual Machines" icon. <br /> <br />
 Select "Client-1". <br /> <br />
 Copy Public IP Address. <br /> <br />
@@ -52,7 +52,7 @@ Select "Ok". <br /> <br />
 <img src="https://i.imgur.com/C3Cf9oC.png"/>
 </p>
 <p>
-Go to Azure Portal (Portal.Azure.com). <br /> <br />
+Go to Azure Portal "(Portal.Azure.com)". <br /> <br />
 Select "Virtual Machines" icon. <br /> <br />
 Select "DC-1". <br /> <br />
 Copy Public IP Address. <br /> <br />
@@ -71,9 +71,9 @@ Select "Ok". <br /> <br />
 <p>
 Open Remote Desktop Connection for Client-1. <br /> <br />
 Go to the "Windows Pane". <br /> <br />
-Type "cmd" in the search bar and Press Enter. <br /> <br />
-Type "whoami" and Press Enter. <br /> <br />
-Type "hostname" and Press Enter. <br /> <br />
+Type "cmd" in the search bar and Press "Enter". <br /> <br />
+Type "whoami" and Press "Enter". <br /> <br />
+Type "hostname" and Press "Enter". <br /> <br />
 </p>
 <br />
 
@@ -81,7 +81,7 @@ Type "hostname" and Press Enter. <br /> <br />
 <img src="https://i.imgur.com/IumMFiw.png"/>
 </p>
 <p>
-Type "ping (spacebar) mainframe" and Press Enter. <br /> <br />
+Type "ping (spacebar) mainframe" and Press "Enter". <br /> <br />
 Mainframe is not registered with the DNS hence the error message. <br /> <br />
 </p>
 <br />
@@ -175,7 +175,7 @@ Observe that "mainframe" has been added to the DNS.
 </p>
 <p>
 Go back to "Command Prompt". <br /> <br />
-Type "ping(spacebar) mainframe" and Press Enter. <br /> <br />
+Type "ping(spacebar) mainframe" and Press "Enter". <br /> <br />
 Observe the traffic for mainframe. <br /> <br />
 </p>
 <br />
@@ -184,7 +184,7 @@ Observe the traffic for mainframe. <br /> <br />
 <img src="https://i.imgur.com/irhrgh7.png"/>
 </p>
 <p>
-Type "nslookup (spacebar) mainframe" and Press Enter. <br /> <br />
+Type "nslookup (spacebar) mainframe" and Press "Enter". <br /> <br />
 Observe that "DC-1" and "mainframe" have the same Private IP Address since we configured it that way. <br /> <br />
 </p>
 <br />
@@ -195,7 +195,7 @@ Observe that "DC-1" and "mainframe" have the same Private IP Address since we co
 <img src="https://i.imgur.com/wKyjZ1A.png"/>
 </p>
 <p>
-Type "ipconfig (spacebar)/displaydns" and Press Enter. <br /> <br />
+Type "ipconfig (spacebar)/displaydns" and Press "Enter". <br /> <br />
 Observe the DNS data for "mainframe" and "DC-1". <br /> <br />
 </p>
 <br />
@@ -242,7 +242,7 @@ Observe "mainframe" IP Address has been updated to 8.8.8.8
 </p>
 <p>
 Go back to "Command Prompt". <br /> <br />
-Type "ping (spacebar) mainframe" and Press Enter. <br /> <br />
+Type "ping (spacebar) mainframe" and Press "Enter". <br /> <br />
 Observe the traffic results are still displaying the original IP Address since the DNS was not flushed. <br /> <br />
 </p>
 <br />
@@ -252,7 +252,7 @@ Observe the traffic results are still displaying the original IP Address since t
 <img src="https://i.imgur.com/sywm0t9.png"/>
 </p>
 <p>
-Type "ipconfig (spacebar)/displaydns" and Press Enter. <br /> <br />
+Type "ipconfig (spacebar)/displaydns" and Press "Enter". <br /> <br />
 The DNS Data is also remaining the same since the DNS was not flushed yet. <br /> <br />
 </p>
 <br />
@@ -261,7 +261,7 @@ The DNS Data is also remaining the same since the DNS was not flushed yet. <br /
 <img src="https://i.imgur.com/WtX4pSY.png"/>
 </p>
 <p>
-Type "ipconfig (spacebar)/flushdns" and Press Enter. <br /> <br />
+Type "ipconfig (spacebar)/flushdns" and Press "Enter". <br /> <br />
 Observe the message "operation requires elevation", the DNS can only be flushed when application opened as administrator. <br /> <br />
 Close application. <br /> <br />
 </p>
@@ -281,7 +281,7 @@ Select "Run as administrator". <br /> <br />
 <img src="https://i.imgur.com/eXIxwRj.png"/>
 </p>
 <p>
-Type "ipconfig (spacebar)/displaydns and Press Enter. <br /> <br />
+Type "ipconfig (spacebar)/displaydns and Press "Enter". <br /> <br />
 Observe DNS Data. <br /> <br />
 </p>
 <br />
@@ -290,7 +290,7 @@ Observe DNS Data. <br /> <br />
 <img src="https://i.imgur.com/AxHLxyN.png"/>
 </p>
 <p>
-Type "ipconfig (spacebar)/flushdns" and Press Enter. <br /> <br />
+Type "ipconfig (spacebar)/flushdns" and Press "Enter". <br /> <br />
 DNS has successfully been flushed. <br /> <br />
 </p>
 <br />
@@ -299,7 +299,7 @@ DNS has successfully been flushed. <br /> <br />
 <img src="https://i.imgur.com/G9skEnq.png"/>
 </p>
 <p>
-Type "ping (spacebar) mainframe" and Press Enter. <br /> <br />
+Type "ping (spacebar) mainframe" and Press "Enter". <br /> <br />
 Observe the new mainframe traffic from updated IP Address. <br /> <br />
 </p>
 <br />
@@ -309,7 +309,7 @@ Observe the new mainframe traffic from updated IP Address. <br /> <br />
 <img src="https://i.imgur.com/0yzgRCg.png"/>
 </p>
 <p>
-Type "ping (spacebar) search" and Press Enter. <br /> <br />
+Type "ping (spacebar) search" and Press "Enter". <br /> <br />
 "Search" is not registered and located in the DNS hence the error message. <br /> <br />
 </p>
 <br />
@@ -329,7 +329,7 @@ Select "New Alias (CNAME)". <br /> <br />
 </p>
 <p>
 Alias name: search. <br /> <br />
-Fully qualified domain name: www.google.com. <br /> <br />
+Fully qualified domain name: "www.google.com". <br /> <br />
 Select "Ok". <br /> <br />
 </p>
 <br />
@@ -349,7 +349,7 @@ Search "(CNAME)" has been successfully added to DNS.
 Go to the "Windows Pane". <br /> <br />
 Type "cmd" in the search bar. <br /> <br />
 Open as Administrator. <br /> <br />
-Type "ipconfig (spacebar)/flushdns" and Press Enter. <br /> <br />
+Type "ipconfig (spacebar)/flushdns" and Press "Enter". <br /> <br />
 DNS has successfully been flushed. <br /> <br />
 </p>
 <br />
@@ -358,7 +358,7 @@ DNS has successfully been flushed. <br /> <br />
 <img src="https://i.imgur.com/SuwUE3f.png"/>
 </p>
 <p>
-Type "ping (spacebar) search" and Press Enter. <br /> <br />
+Type "ping (spacebar) search" and Press "Enter". <br /> <br />
 Observe the google traffic. <br /> <br /> 
 Congratulations you have completed this tutorial. <br /> <br />
 </p>
